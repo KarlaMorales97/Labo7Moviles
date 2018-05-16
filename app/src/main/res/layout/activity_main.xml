@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context="com.gamma.labo7moviles.MainActivity">
+
+    <Button
+        android:id="@+id/mostrarRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblRegistrar"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/consultarUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblConsultar"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
