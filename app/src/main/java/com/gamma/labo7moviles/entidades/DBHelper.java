@@ -34,6 +34,9 @@ public class DBHelper extends SQLiteOpenHelper {
     }
 
 
+
+
+
     public static DBHelper myDB = null;
     private Context context;
     SQLiteDatabase db;
